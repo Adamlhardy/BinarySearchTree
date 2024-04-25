@@ -12,5 +12,8 @@ public class Program {
         bst.Insert(3);
         bst.Insert(9);
         bst.Display();
+        bst.Delete(3);
+        System.out.println("5 " + bst.Search(5));
+        System.out.println("0 " + bst.Search(0));
     }
 }
